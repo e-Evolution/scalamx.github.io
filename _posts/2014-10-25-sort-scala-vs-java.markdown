@@ -74,7 +74,7 @@ public class Quicksort  {
 }
 {% endhighlight %}
 
-Este es la implementacion en Scala.
+Este es la implementación en Scala.
 
 
 {% highlight scala linenos %}
@@ -119,11 +119,11 @@ def sort(xs: Array[Int]): Array[Int] = {
 {% endhighlight %}
 
 
-El algoritmo implementado de manera funcional captura la esencia del algoritmo QuickSort de manera consisa:
+El algoritmo implementado de manera funcional captura la esencia del algoritmo QuickSort de manera concisa:
 
 * Si el arreglo está vacío o consta de un solo elemento,entonces  ya está ordenado, de modo que se devuelve inmediatamente.
 
-* Si el arreglo no esta vacío, elije un elemento y usalo como pivote.
+* Si el arreglo no esta vacío, elige un elemento y usalo como pivote.
 
 * Se reparte el arreglo en dos sub-arreglos que contienen elementos que son más pequeños que,
   respectivamente mayor que el elemento de pivote, y una tercera matriz que contiene elementos iguales al elemento pivote.
